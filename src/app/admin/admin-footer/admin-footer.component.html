@@ -1,0 +1,9 @@
+<footer class="main-footer">
+  <div class="pull-right hidden-xs">
+    <b>Socket Status</b>
+    <span class="text-green" *ngIf="signalService.messages.length">
+    <span *ngFor='let message of signalService.messages'> {{message}} </span>
+  </span>
+  </div>
+  <strong>Copyright &copy; 2017-2018 <a href="https://github.com/aesthetism/Kekko">Kekko</a>.</strong> All rights reserved.
+</footer>
